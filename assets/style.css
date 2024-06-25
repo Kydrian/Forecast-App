@@ -1,0 +1,17 @@
+header {
+    background-color: blue;
+    text-align: center;
+}
+
+header input {
+    font-size: larger;
+}
+
+header button {
+    font-size: larger;
+}
+
+.icons{
+    display: inline-block;
+}
+
