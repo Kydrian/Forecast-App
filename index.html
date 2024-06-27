@@ -10,13 +10,29 @@
 
 <body>
     <header>
-    <h1> 5 Day weather Forecast</h1>
-    <input type="text" id="cityInput" placeholder="Enter your city">
-    <button onclick="getInfo()" >Search</button>
-    <h2 id="cityName">--your city--</h2>
+        <form>
+    <h1>Weather Forecast</h1>
+    <input type="text" id="city-input" placeholder="Enter your city">
+    <button id="search-btn">Search</button>
+        </form>
     </header>
 
-    <div id="sectionContainer">
+    <div class="weather-data">
+        <div class="current-weather">
+            <div class="wether-details">
+                <h2>London</h2>
+                <h4>Temperature</h4>
+                <h4>Wind</h4>
+                <h4>Humidity</h4>
+            </div>
+            <div class="icon">
+                <img src="dots.png" alt="weather-icon">
+                <h4>Moderate rain</h4>
+            </div>
+        </div>
+    </div>
+
+    <div id="weatherCards">
         <div id="weatherContainer">
             <div id="iconContainer">
                 <div class="icons">

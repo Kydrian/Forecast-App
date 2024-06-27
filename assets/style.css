@@ -15,3 +15,8 @@ header button {
     display: inline-block;
 }
 
+.current-weather {
+    color: white;
+    background-color: lightskyblue;
+    text-align: center;
+}
